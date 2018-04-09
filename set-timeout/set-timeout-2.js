@@ -4,7 +4,7 @@ const delayedLogger = (value, callback) => {
     if (callback) {
       callback();
     }
-  }, 1000);
+  }, Math.random() * 5000);
 };
 
 delayedLogger(1, () => {

@@ -8,7 +8,7 @@ const delayedLogger = (value, callback) => {
         callback(null);
       }
     }
-  }, 1000);
+  }, Math.random() * 5000);
 };
 
 delayedLogger(1, (error1) => {

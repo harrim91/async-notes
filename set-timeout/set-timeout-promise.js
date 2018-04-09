@@ -6,7 +6,7 @@ const delayedLogger = (value) => new Promise((resolve, reject) => {
       console.log(value);
       resolve();
     }
-  }, 1000);
+  }, Math.random() * 5000);
 });
 
 delayedLogger(1)

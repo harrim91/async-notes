@@ -1,7 +1,7 @@
 const delayedLogger = (value) => {
   setTimeout(() => {
     console.log(value);
-  }, 1000);
+  }, Math.random() * 5000);
 };
 
 delayedLogger(1);

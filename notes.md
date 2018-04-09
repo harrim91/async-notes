@@ -54,10 +54,11 @@ Common pattern is for async callbacks to provide us with an error and a data par
   - error reading or writing to a file
 
 Example 5 - API requests
+  - github1
   - here we are calling writeFile and using request
   - the callbacks to these functions give us errors and data params to use.
 
-CALLBACK HELL
+CALLBACK HELL - still github1, also set-timeout-3
   It's probably already easy to see how using callbacks to control async code can get very nested very quickly
 
   - hard to follow what callback / what level of nesting you are in
@@ -84,6 +85,8 @@ Chainable
 - github-promise
 
 Creating Promises
+
+- set-timeout-promise
 
 new Promise constructor
   - takes a callback ironically
